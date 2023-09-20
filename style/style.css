@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Menu -> Pagina Inicial  */
+
+header{
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#navlist{
+    margin-right: 20px;
+}
+
+#navlist ul{
+    list-style-type: none;
+    display: flex;
+    padding: 40px 100px 0px 0px;
+}
+
+#navlist ul li{
+    background-color: rgba(255, 255, 255, 0.959);
+    font-weight: 400;
+    padding: 8px;
+    margin-left: 25px;
+    border-bottom: 2px solid transparent;
+    transition: all .5s ease;
+}
+
+#navlist ul li:hover{
+    border-bottom: 2px solid black;
+    transform: translateX(-10px);
+    color: rgba(0, 0, 0, 0.349);
+}
+
+#navlist ul li:hover ul{
+    display: block;
+}
+
+#navlist ul ul{
+    display: none;
+    position: absolute;
+    padding-top: 20px;
+}
+
+#navlist ul ul li{
+    margin: 0;
+    padding: 10px;
+}
+
+#navlist ul ul li:hover{
+    color: black;
+}
+
+/* bunner -> Pagina Inicial */
+
+.bxs-vial{
+    font-size: 1.8vw;
+}
+
+main{
+    user-select: none;
+    justify-content: center;
+    display: flex;
+    height: 93vh;
+    align-items: center;
+}
+
+main .bsubtittle{
+    font-size: 2.5vw;
+    font-weight: 600;
+}
+
+
+main #t2{
+    text-transform: uppercase;
+    line-height: 75%;
+    font-size: 10vw;
+    font-weight: 700;
+}
+
+main #t3{
+    text-align: end;
+}
+
+main em{
+    color: white;
+    font-style: normal;
+    padding: 0px 5px 0px 5px;
+    background-image: linear-gradient(90deg, #7c7cff 20%, #b8b8f9 80%);
+}
+

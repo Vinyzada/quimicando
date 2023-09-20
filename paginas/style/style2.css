@@ -1,0 +1,171 @@
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Menu -> Paginas  */
+
+header{
+    background-color: white;
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logo{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 80px;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#logo .bxs-vial{
+    font-size: 18px;
+}
+
+#navlist{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+}
+
+#navlist ul{
+    list-style-type: none;
+    display: flex;
+    padding: 20px 100px 0px 0px;
+}
+
+#navlist ul li{
+    background-color: rgba(255, 255, 255, 0.959);
+    font-weight: 400;
+    padding: 8px;
+    margin-left: 25px;
+    border-bottom: 2px solid transparent;
+    transition: all .5s ease;
+}
+
+#navlist ul li:hover{
+    border-bottom: 2px solid black;
+    transform: translateX(-10px);
+    color: rgba(0, 0, 0, 0.349);
+}
+
+#navlist ul li:hover ul{
+    display: block;
+}
+
+#navlist ul ul{
+    display: none;
+    position: absolute;
+}
+
+#navlist ul ul li{
+    margin: 0;
+    padding: 8px;
+}
+
+#navlist ul ul li:hover{
+    color: black;
+}
+
+/* Fim Menu -> Paginas */
+
+body{
+    background-color: #b8b8f967;
+}
+main {
+    box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.438);
+    width: 793.7px;
+    background-color: white;
+    height: auto;
+    margin: auto;
+}
+
+main section{
+    margin-top: 100px;
+    padding: 113.39px 75.6px 75.6px 113.39px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 20pt;
+}
+
+main h1{
+    font-size: 12pt;
+    text-transform: uppercase;
+    margin-bottom: 20pt;
+}
+
+.secaosegundaria{
+    font-weight: 100;
+    margin-top: 20pt;
+}
+
+main p{
+    text-indent:75.6px ;
+}
+ 
+main ul{
+    margin-left: 75.6px;
+}
+
+main ul p{
+    display: inline;
+    text-indent: 0;
+}
+
+.secaotercearia{
+    font-weight: 600;
+}
+
+.figura {
+    margin: 18pt 0 18pt 0;
+    text-align: center;
+}
+
+.figura p{
+    text-indent: 0;
+}
+
+.figura .font10 {
+    font-size: 10pt;
+    margin-top: 0px;
+    text-indent: 0;
+}
+
+.fontimg{
+    text-align: start;
+}
+
+.lowercase{
+    text-transform: capitalize;
+    margin-top: 20pt;
+}
+
+.referencia {
+    text-align: center;
+    font-weight: bold;
+}
+
+.contentRef p {
+    text-align: left;
+    line-height: 12pt;
+    padding-top: 12pt;
+    text-indent: 0;
+    display: inline-block;
+}
+
+.tituloRef{
+    font-weight: 600;
+}
