@@ -12,7 +12,7 @@
 
 header{
     background-color: white;
-    height: 9vh;
+    height: 8vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,28 +22,14 @@ header{
     font-family: 'Poppins', sans-serif;
 }
 
-#logo{
-    padding-top: 20px;
-    font-size: 20px;
-    font-weight: 600;
-    margin-left: 80px;
-    font-family: 'Poppins', sans-serif !important;
-}
-
-#logo .bxs-vial{
-    font-size: 18px;
-}
-
 #navlist{
-    display: flex;
     margin-right: 20px;
-    align-items: center;
 }
 
 #navlist ul{
     list-style-type: none;
     display: flex;
-    padding: 20px 100px 0px 0px;
+    padding: 5px 100px 0px 0px;
 }
 
 #navlist ul li{
@@ -66,8 +52,19 @@ header{
 }
 
 #navlist ul ul{
+    margin-top: 10px;
     display: none;
     position: absolute;
+}
+
+#navlist ul ul li{
+    margin: 0;
+    padding: 10px;
+}
+
+#navlist ul a{
+    color: black;
+    text-decoration: none;
 }
 
 #navlist ul ul li{
@@ -136,6 +133,11 @@ main ul p{
 
 .figura p{
     text-indent: 0;
+}
+
+.excecao{
+    width: 100%;
+    height: auto;
 }
 
 .figura .font10 {

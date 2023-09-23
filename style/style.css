@@ -56,6 +56,16 @@ header{
     padding: 10px;
 }
 
+#navlist ul a{
+    color: black;
+    text-decoration: none;
+}
+
+#navlist ul li a{
+    color: rgba(0, 0, 0, 0.349);
+    text-decoration: none;
+}
+
 #navlist ul ul li:hover{
     color: black;
 }
