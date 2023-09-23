@@ -129,13 +129,14 @@ main ul p{
 .figura {
     margin: 18pt 0 18pt 0;
     text-align: center;
+    width: 100%;
 }
 
 .figura p{
     text-indent: 0;
 }
 
-.excecao{
+img .auto{
     width: 100%;
     height: auto;
 }
@@ -150,14 +151,28 @@ main ul p{
     text-align: start;
 }
 
+.menor{
+    width: 90%;
+}
+
 .lowercase{
     text-transform: capitalize;
     margin-top: 20pt;
 }
 
+.sparag{
+    display: inline;
+}
+
+.excP{
+    display: inline-flex;
+    margin-bottom: 0;
+}
+
 .referencia {
     text-align: center;
     font-weight: bold;
+    margin-top: 12pt ;
 }
 
 .contentRef p {
