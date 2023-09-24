@@ -94,7 +94,6 @@ main section{
     padding: 113.39px 75.6px 75.6px 113.39px;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12pt;
     line-height: 20pt;
 }
 
@@ -132,8 +131,12 @@ main ul p{
     width: 100%;
 }
 
-.figura p{
+.figura p, .sais{
     text-indent: 0;
+}
+
+.ex{
+    margin-top: 12pt;
 }
 
 img .auto{
@@ -153,6 +156,10 @@ img .auto{
 
 .menor{
     width: 90%;
+}
+
+.tabela{
+    width: 70%;
 }
 
 .lowercase{
