@@ -209,3 +209,14 @@ img .auto{
 .tituloRef{
     font-weight: 600;
 }
+
+.samb{
+    width: 80%;
+}
+
+#citacaoDireta{
+    margin:1.5cm 0 1.5cm 4cm;
+    font-size: 10pt;
+    text-indent: 0;
+    line-height: 10pt;
+}
