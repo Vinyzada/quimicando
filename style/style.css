@@ -1,7 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.chromaquimic{
+    background-image: linear-gradient(90deg, #7c7cff 20%, #b8b8f9 80%);
 }
 
 /* Menu -> Pagina Inicial  */
@@ -77,7 +86,7 @@ header{
     font-size: 1.8vw;
 }
 
-main{
+#indexbunner{
     user-select: none;
     justify-content: center;
     display: flex;
@@ -85,27 +94,141 @@ main{
     align-items: center;
 }
 
-main .bsubtittle{
+#indexbunner .bsubtittle{
     font-size: 2.5vw;
     font-weight: 600;
 }
 
 
-main #t2{
+#indexbunner #t2{
     text-transform: uppercase;
     line-height: 75%;
     font-size: 10vw;
     font-weight: 700;
 }
 
-main #t3{
+#indexbunner #t3{
     text-align: end;
 }
 
-main em{
+#indexbunner em{
     color: white;
     font-style: normal;
     padding: 0px 5px 0px 5px;
     background-image: linear-gradient(90deg, #7c7cff 20%, #b8b8f9 80%);
 }
 
+/* Bunner -> Sobre */
+
+#headerSobre{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 8vh;
+    transition: all 0.5s ease;
+}
+#headerSobre #navlist ul{
+    padding: 0px 100px 0px 0px;
+}
+#headerSobre #navlist ul ul{
+    padding: 20px 100px 0px 0px;
+}
+
+#headerSobre.rolagem{
+    width: 100vw;
+    margin-left: 0vw;
+    filter: invert(100%);
+}
+
+#sobrebunnersec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 92vh;
+    width: 100vw;
+}
+
+#sobreBunner{
+    padding: 0px 100px 0px 100px;
+}
+
+#sobreBunnertittle{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#sobreBunnertext{
+    text-align: justify;
+    font-size: 30px;
+}
+
+#sobreButton{
+    display: inline;
+    justify-content: end;
+    width: 100%;
+}
+
+#sobreButton button{
+    cursor: pointer;
+    appearance: none;
+    padding: 10px;
+    border: 0px;
+    margin-top: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: all .35s ease;
+}
+
+#sobreButton button:hover{
+    filter: invert(100%)
+}
+
+.chromaquimic{
+    color: white;
+    font-size: 20px;
+}
+
+/* Bunner -> Sobre -> Individual*/
+
+#sobreIndividual{
+    font-size: 50px;
+    padding-left: 100px;
+}
+
+.users{
+    margin: 50px 0px 50px;
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.userimg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+}
+
+.userimg img{
+    border-radius: 100%;
+    width: 200px;
+    height: auto;
+}
+
+.redes{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.redes i{
+    cursor: pointer;
+    margin: 10px 10px 0px 10px;
+    transition: all .35s ease;
+}
+
+.redes i:hover{
+    transform: translateY(5px);
+}
