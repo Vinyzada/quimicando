@@ -299,7 +299,7 @@ header {
     width: 90vw;
 }
 
-#tittleconfig {
+.tittleconfig {
     display: flex;
     justify-content: center;
     font-size: 35px;
