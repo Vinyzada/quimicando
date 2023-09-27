@@ -16,6 +16,7 @@ html{
 /* Menu -> Pagina Inicial  */
 
 header{
+    z-index: 99999;
     width: 100vw;
     height: 8vh;
     display: flex;
@@ -231,4 +232,112 @@ header{
 
 .redes i:hover{
     transform: translateY(5px);
+}
+
+/* Config page */
+#headerconfig{
+    height: 8vh;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+#headerconfig #navlist ul{
+    padding: 0px 100px 0px 0px;
+}
+#headerconfig #navlist ul{
+    padding: 10px 0px 10px 0px;
+}
+
+#mainconfig{
+    width: 100vw;
+    background-color: rgba(73, 73, 73, 0.178);
+    display: flex;
+}
+
+#navlateral{
+    position: sticky;
+    top: 0;
+    top: 8vh;
+    width: 200px;
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+#navlateral ul{
+    width: 200px;
+    list-style: none;
+}
+#navlateral ul a{
+    text-decoration: none;
+    color: black
+}
+#navlateral ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+#navlateral ul li:hover{
+    background-color: rgb(196, 196, 196);
+}
+
+#configs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
+}
+
+#tittleconfig{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    border-bottom: 2px solid black;
+}
+
+.allconfig{
+    margin-top: 100px;
+    width: 50%;
+}
+
+.config{
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    margin-top: 20px;
+}
+#configs input{
+    cursor: pointer;
+    appearance: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    inline-size: 60px;
+    block-size: 40px;
+    height: 40px;
+    width: 60px;
+    background-color: transparent
+}
+
+#configs button{
+    cursor: pointer;
+    appearance: none;
+    font-size: 25px;
+    background-color: transparent;
+    border: 2px solid black;
+    height: 40px;
+    width: 60px;
+    border-radius: 5px;
+}
+#configs select{
+    appearance: none;
+    background-color: transparent;
+    font-size: 20px;
+    text-align: center;
+}
+
+#configs input,button,select:hover{
+    opacity: 0.5;
 }
