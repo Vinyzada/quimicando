@@ -220,3 +220,26 @@ img .auto{
     text-indent: 0;
     line-height: 10pt;
 }
+
+/* Footer */
+
+footer{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    height: 300px;
+}
+
+footer img{
+    width: 200px;
+    height: auto;
+}
+
+footer div ul{
+    font-weight: 100;
+    list-style: none;
+}
