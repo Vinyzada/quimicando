@@ -99,7 +99,8 @@ main {
     padding-top: 120px;
     padding-bottom: 120px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     height: auto;
     margin: auto;
 }
@@ -120,7 +121,7 @@ main h1{
     margin-bottom: 20pt;
 }
 
-.secaosegundaria{
+main h2{
     font-weight: 100;
     margin-top: 20pt;
 }
@@ -138,7 +139,7 @@ main ul p{
     text-indent: 0;
 }
 
-.secaotercearia{
+main h3{
     font-weight: 600;
 }
 
