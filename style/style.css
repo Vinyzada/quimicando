@@ -39,6 +39,7 @@ header {
 }
 
 #navlist ul li {
+    color: black;
     background-color: rgba(255, 255, 255, 0.959);
     font-weight: 400;
     padding: 8px;
@@ -47,7 +48,7 @@ header {
     transition: all .5s ease;
 }
 
-#navlist ul li:hover {
+#navlist li:hover {
     border-bottom: 2px solid black;
     transform: translateX(-10px);
     color: rgba(0, 0, 0, 0.349);
@@ -64,21 +65,12 @@ header {
 }
 
 #navlist ul ul li {
+    color: rgba(0, 0, 0, 0.349);
     margin: 0;
     padding: 10px;
 }
 
-#navlist ul a {
-    color: black;
-    text-decoration: none;
-}
-
-#navlist ul li a {
-    color: rgba(0, 0, 0, 0.349);
-    text-decoration: none;
-}
-
-#navlist ul ul li:hover {
+#navlist ul ul li:hover{
     color: black;
 }
 
@@ -158,6 +150,7 @@ header {
 }
 
 #sobreBunnertittle {
+    font-weight: 300;
     font-size: 50px;
     margin-bottom: 30px;
 }

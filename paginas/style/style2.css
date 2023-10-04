@@ -46,6 +46,7 @@ header.rolagem{
 }
 
 #navlist ul li{
+    color: black;
     background-color: rgba(255, 255, 255, 0.959);
     font-weight: 400;
     padding: 8px;
@@ -71,16 +72,7 @@ header.rolagem{
 }
 
 #navlist ul ul li{
-    margin: 0;
-    padding: 10px;
-}
-
-#navlist ul a{
-    color: black;
-    text-decoration: none;
-}
-
-#navlist ul ul li{
+    color: rgba(0, 0, 0, 0.349);
     margin: 0;
     padding: 8px;
 }
@@ -223,8 +215,8 @@ figcaption {
     font-weight: 600;
 }
 
-.samb{
-    width: 80%;
+.samb img{
+    width: 100%;
 }
 
 #citacaoDireta{
