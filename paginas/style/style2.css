@@ -102,10 +102,10 @@ main {
     flex-direction: column;
     align-items: center;
     height: auto;
-    margin: auto;
+    margin: 120px auto 120px;
 }
 
-main section{
+main {
     box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.438);
     width: 793.7px;
     background-color: white;
@@ -124,6 +124,8 @@ main h1{
 main h2{
     font-weight: 100;
     margin-top: 20pt;
+    font-size: 12pt;
+    margin: 20pt 0;
 }
 
 main p{
@@ -134,22 +136,34 @@ main ul{
     margin-left: 75.6px;
 }
 
-main ul p{
+main ul h4{
     display: inline;
     text-indent: 0;
 }
 
-main h3{
-    font-weight: 600;
+main ul p{
+    display: inline;
 }
 
-.figura {
-    margin: 18pt 0 18pt 0;
+main h3{
+    font-size: 12pt;
+    font-weight: 600;
+    margin: 20pt 0;
+}
+
+main h5{
+    font-size: 12pt;
+    display: inline;
+    font-weight: 100;
+}
+
+main figure  {
+    margin: 18pt 0 ;
     text-align: center;
     width: 100%;
 }
 
-.figura p, .sais{
+figure p, .sais{
     text-indent: 0;
 }
 
@@ -162,13 +176,10 @@ img .auto{
     height: auto;
 }
 
-.figura .font10 {
+figcaption {
     font-size: 10pt;
     margin-top: 0px;
     text-indent: 0;
-}
-
-.fontimg{
     text-align: start;
 }
 
@@ -185,11 +196,11 @@ img .auto{
     margin-top: 20pt;
 }
 
-.sparag{
+.noparag{
     display: inline;
 }
 
-.excP{
+.textoInline{
     display: inline-flex;
     margin-bottom: 0;
 }
@@ -223,6 +234,9 @@ img .auto{
     line-height: 10pt;
 }
 
+#tabelaperiodica img{
+    width: 80%;
+}
 /* Footer */
 
 footer{
