@@ -9,3 +9,11 @@ function scrollEffect (){
 }
 
 document.addEventListener('scroll', scrollEffect);
+
+const menuburger = document.getElementsByClassName('bx-menu');
+const navlist = document.getElementById('navlist');
+function openMenu(){
+        navlist.classList.add("openMenu")
+}
+
+menuburger.addEventListener('click', openMenu())
