@@ -203,7 +203,7 @@ figcaption {
     text-align: center;
     font-weight: bold;
     margin-top: 12pt ;
-    word-break: break-all;
+    word-break:break-word;
 }
 
 .contentRef p {
