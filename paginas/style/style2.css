@@ -95,9 +95,6 @@ main {
     align-items: center;
     height: auto;
     margin: 120px auto 120px;
-}
-
-main {
     box-shadow: 0px 0px 15px 2px rgba(0, 0, 0, 0.438);
     width: 793.7px;
     background-color: white;
@@ -106,6 +103,7 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 20pt;
 }
+
 
 main h1{
     font-size: 12pt;
@@ -153,6 +151,10 @@ main figure  {
     margin: 18pt 0 ;
     text-align: center;
     width: 100%;
+}
+
+main img{
+    width: 500px;
 }
 
 figure p, .sais{
@@ -250,4 +252,108 @@ footer img{
 footer div ul{
     font-weight: 100;
     list-style: none;
+}
+
+/*RESPONSIVIDADE*/
+
+@media (max-width: 834px){
+/* Menu -> Paginas  */
+
+#navlist {
+    display: none;
+}
+#navlist.openMenu{
+    display: block;
+}
+header i.bx-menu{
+    display: block;
+    font-size: 60px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+header i.bx-x{
+    display: block;
+    font-size: 60px;
+    margin: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#navlist ul {
+    width: 100%;
+    backdrop-filter: blur(10px);
+    top: 70px;
+    right: 0;
+    padding: 50px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.521);
+}
+
+#navlist ul li {
+    font-size: 20px;
+    padding: 25px;
+    background-color: transparent;
+}
+
+#navlist li .bx-chevron-down{
+    display: block;
+}
+
+
+#navlist li:hover {
+    position: relative;
+    display: block;
+}
+
+#navlist ul ul {
+    margin-top: 0;
+    margin-bottom: 50px;
+    display: none;
+    position: relative;
+    right: 0;
+}
+
+#navlist ul li:hover ul {
+    transition: all .55s ease;
+}
+
+/*MAIN*/
+
+main {
+    padding: 30px;
+    width: 100%;
+    margin: 100px auto 100px;
+    letter-spacing: 0.5px
+}
+
+main p{
+    text-indent:20px;
+}
+main h1, main h2, main h3, main h4,main h5{
+    margin-bottom: 10pt;
+}
+
+figure p{
+    margin: 18pt 0 ;
+}
+
+figure img{
+    width: 400px;
+}
+
+main ul{
+    margin-left: 35px;
+}
+figcaption{
+    text-align: center;
+}
+
+}
+@media (max-width: 500px){
+    figure img{
+        width: 300px;
+    }
 }
