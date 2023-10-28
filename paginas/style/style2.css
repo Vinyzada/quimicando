@@ -203,7 +203,7 @@ figcaption {
     text-align: center;
     font-weight: bold;
     margin-top: 12pt ;
-    word-break:break-word;
+  
 }
 
 .contentRef p {
@@ -212,6 +212,7 @@ figcaption {
     padding-top: 12pt;
     text-indent: 0;
     display: inline-block;
+    word-break:break-word;
 }
 
 .tituloRef{
