@@ -82,6 +82,8 @@ header.rolagem{
 
 /* Fim Menu -> Paginas */
 
+/* Pagina Conteúdo  - Início */
+
 body{
     background-color: #b8b8f967;
 }
@@ -156,17 +158,8 @@ main img{
     width: 500px;
 }
 
-figure p, .sais{
+figure p, .textOneline{
     text-indent: 0;
-}
-
-.ex{
-    margin-top: 12pt;
-}
-
-img .auto{
-    width: 100%;
-    height: auto;
 }
 
 figcaption {
@@ -176,20 +169,7 @@ figcaption {
     text-align: start;
 }
 
-.menor{
-    width: 90%;
-}
-
-.tabela{
-    width: 70%;
-}
-
-.lowercase{
-    text-transform: capitalize;
-    margin-top: 20pt;
-}
-
-.noparag{
+.noparagraf{
     display: inline;
 }
 
@@ -218,11 +198,11 @@ figcaption {
     font-weight: 600;
 }
 
-.samb img{
+.sambaqui img{
     width: 100%;
 }
 
-#citacaoDireta{
+#citacao{
     margin:1.5cm 0 1.5cm 4cm;
     font-size: 10pt;
     text-indent: 0;
@@ -232,6 +212,8 @@ figcaption {
 #tabelaperiodica img{
     width: 80%;
 }
+/* Pagina Conteúdo  - Fim */
+
 /* Footer */
 
 footer{
@@ -254,6 +236,8 @@ footer div ul{
     font-weight: 100;
     list-style: none;
 }
+
+/* Fim footer*/
 
 /*RESPONSIVIDADE*/
 
@@ -393,3 +377,5 @@ figcaption{
         width: 300px;
     }
 }
+
+/* FIM MAIN */
