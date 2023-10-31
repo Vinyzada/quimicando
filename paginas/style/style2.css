@@ -39,6 +39,10 @@ header.rolagem{
     margin-right: 20px;
 }
 
+#menu{
+    display: none;
+}
+
 #navlist ul{
     list-style-type: none;
     display: flex;
@@ -51,7 +55,6 @@ header.rolagem{
     font-weight: 400;
     padding: 8px;
     margin-left: 25px;
-    border-bottom: 2px solid transparent;
     transition: all .5s ease;
 }
 
@@ -59,10 +62,6 @@ header.rolagem{
     border-bottom: 2px solid black;
     transform: translateX(-10px);
     color: rgba(0, 0, 0, 0.349);
-}
-
-#navlist ul li:hover ul{
-    display: block;
 }
 
 #navlist ul ul{
@@ -258,11 +257,26 @@ footer div ul{
 
 /*RESPONSIVIDADE*/
 
-@media (max-width: 834px){
-/* Menu -> Paginas  */
-
+@media (max-width: 950px) {
+    /* Menu Responsivo */
+header{
+    text-align: center;
+    border-radius: 0px;
+    width: 100vw;
+    margin: 0px;
+}
+header.rolagem{
+    color: white;
+    filter: invert(0%);
+    background-color: rgb(0, 0, 0);
+    border-radius: 0px;
+}
 #navlist {
     display: none;
+    width: 100vw;
+}
+#menu{
+    display: block;
 }
 #navlist.openMenu{
     display: block;
@@ -281,46 +295,65 @@ header i.bx-x{
     display: flex;
     align-items: center;
 }
-
 #navlist ul {
-    width: 100%;
+    text-align: center;
+    width: 100vw;
     backdrop-filter: blur(10px);
     top: 70px;
-    right: 0;
-    padding: 50px;
     position: absolute;
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.521);
+    background-color: rgb(0, 0, 0);
+}
+#navlist ul li:hover {
+    border-bottom: 0px;
+    transform: translateX(0px);
+    color: rgb(255, 255, 255);
+}
+#navlist li ul li:hover{
+    color: rgb(255, 255, 255);
 }
 
 #navlist ul li {
+    color: white;
+    width: 100vw;
+    margin-left: 0px;
     font-size: 20px;
-    padding: 25px;
     background-color: transparent;
+}
+
+#navlist ul li li{
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+#navlist ul i:hover:disabled ul{
+    display: block;
 }
 
 #navlist li .bx-chevron-down{
     display: block;
 }
 
-
-#navlist li:hover {
-    position: relative;
-    display: block;
-}
-
 #navlist ul ul {
+    height: 90%;
+    width: 100vw;
+    top: 10px;
+    padding: 0px;
     margin-top: 0;
-    margin-bottom: 50px;
     display: none;
     position: relative;
     right: 0;
+    padding-bottom: 0px;
+    margin-bottom: 50px;
+    backdrop-filter: blur(0px);
+    background-color: transparent;
 }
 
-#navlist ul li:hover ul {
-    transition: all .55s ease;
+/* Fim Menu */
 }
+
+@media (max-width: 834px){
 
 /*MAIN*/
 

@@ -15,30 +15,31 @@
         rel="stylesheet">
 
 <body>
-    <header id="headerSobre">
+    <header>
         <div id="logo"></div>
         <nav id="navlist">
-            <ul>
-                <li onclick="window.location='index.html'">Início</a></li>
-              <li>
-                Tópicos
-                <ul>
-                    <li onclick="window.location='paginas/propriedadesDaMateria.html'">Propriedades da matéria</li>
-                    <li onclick="window.location='paginas/estruturaAtomica.html'">Estrutura Atômica</li>
-                    <li onclick="window.location='paginas/tabelaPeriodica.html'">Tabela Periódica</li>
-                    <li onclick="window.location='paginas/substanciasEmisturas.html'">Substâncias e misturas puras</li>
-                    <li onclick="window.location='paginas/ligacoesQuimicas.html'">Ligações Químicas</li>
-                    <li onclick="window.location='paginas/leisPonderais.html'">Leis Ponderais</li>
-                    <li onclick="window.location='paginas/reacoesQuimicas.html'">Reações Químicas</li>
-                    <li onclick="window.location='paginas/funcoesinorganicas.html'">Funções Inorgânicas</li>
-                    <li onclick="window.location='paginas/sambaqui.html'">Sambaqui</li>
-                </ul>
-              </li>
-                <li onclick="window.location='sobre.html'">Sobre</li>
-                <li onclick="window.location='config.html'"><i class="bx bx-cog"></i></li>
-            </ul>
-          </nav>
-    </header>
+          <ul>
+              <li onclick="window.location='index.html'">Início</a></li>
+            <li onclick="openSubMenu()" id="listTopics">
+              Tópicos +</i>
+              <ul id="ullistTopics">
+                  <li onclick="window.location='paginas/propriedadesDaMateria.html'">Propriedades da matéria</li>
+                  <li onclick="window.location='paginas/estruturaAtomica.html'">Estrutura Atômica</li>
+                  <li onclick="window.location='paginas/tabelaPeriodica.html'">Tabela Periódica</li>
+                  <li onclick="window.location='paginas/substanciasEmisturas.html'">Substâncias e misturas puras</li>
+                  <li onclick="window.location='paginas/ligacoesQuimicas.html'">Ligações Químicas</li>
+                  <li onclick="window.location='paginas/leisPonderais.html'">Leis Ponderais</li>
+                  <li onclick="window.location='paginas/reacoesQuimicas.html'">Reações Químicas</li>
+                  <li onclick="window.location='paginas/funcoesinorganicas.html'">Funções Inorgânicas</li>
+                  <li onclick="window.location='paginas/sambaqui.html'">Sambaqui</li>
+              </ul>
+            </li>
+              <li onclick="window.location='sobre.html'">Sobre</li>
+              <li onclick="window.location='config.html'"><i class="bx bx-cog"></i></li>
+          </ul>
+        </nav>
+        <i class='bx bx-menu' onclick="openMenu()" id="menu"></i>
+      </header>
     <main>
         <section id="sobrebunnersec">
             <div id="sobreBunner">
