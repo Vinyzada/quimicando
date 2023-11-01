@@ -13,7 +13,7 @@
 header{
     position: sticky;
     background-color: white;
-    height: 8vh;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -268,14 +268,14 @@ header.rolagem{
 header i.bx-menu{
     display: block;
     font-size: 60px;
-    margin: 30px;
+    margin: 30px 15px;
     display: flex;
     align-items: center;
 }
 header i.bx-x{
     display: block;
     font-size: 60px;
-    margin: 30px;
+    margin: 30px 15px;
     display: flex;
     align-items: center;
 }
@@ -283,7 +283,7 @@ header i.bx-x{
     text-align: center;
     width: 100vw;
     backdrop-filter: blur(10px);
-    top: 70px;
+    top: 60px;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -304,6 +304,7 @@ header i.bx-x{
     margin-left: 0px;
     font-size: 20px;
     background-color: transparent;
+    padding: 8px 0px 8px 0px;
 }
 
 #navlist ul li li{
@@ -322,7 +323,6 @@ header i.bx-x{
 #navlist ul ul {
     height: 90%;
     width: 100vw;
-    top: 10px;
     padding: 0px;
     margin-top: 0;
     display: none;
@@ -335,6 +335,21 @@ header i.bx-x{
 }
 
 /* Fim Menu */
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+footer div {
+    margin-top: 50px;
+}
+
 }
 
 @media (max-width: 834px){
