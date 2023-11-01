@@ -439,7 +439,7 @@ footer div ul {
         position: absolute;
         display: flex;
         flex-direction: column;
-        background-color: rgba(255, 255, 255, 0.6);
+        background-color: rgb(255, 255, 255);
     }
 
     #navlist li:hover {
